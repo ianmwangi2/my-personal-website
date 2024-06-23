@@ -83,3 +83,16 @@ h1, h2, h3 {
     margin: 5px;
     border-radius: 10px;
 }
+h2 {
+    font-family: "Metal Mania", system-ui;
+    text-decoration: underline;
+}
+h3 {
+    text-decoration: underline;
+}
+#contact {
+    text-align: center;
+    text-decoration: none;
+    margin: 10%;
+    font-size: xx-large;
+}
