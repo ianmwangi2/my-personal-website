@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2e2e2e;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+.wraper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+#head-section h1{
+    font-family: "Metal Mania", system-ui;
+    text-decoration: overline underline;
+    font-size: 100px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-section h1 {
+    font-family: "Metal Mania", system-ui;
+}
+.left-section, .right-section {
+    padding: 20px;
+}
+
+.left-section {
+    background-color: #3B3B3B;
+    width: 35%;
+    text-align: center;
+    border-right: 2px solid #444;
+}
+
+.right-section {
+    background-color: #2E2E2E;
+    width: 65%;
+}
+
+.profile-picture img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+h1, h2, h3 {
+    color: #FFD700;
+}
+
+.qr-code img {
+    width: 100px;
+    height: 100px;
+}
+
+.experience {
+    margin-bottom: 20px;
+    display: flex;
+}
+.experience img{
+    height: 500px;
+    border-radius: 20%;
+}
+#year-1{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+#year-2 {
+    display: flex;
+    align-items: center;
+}
+#year-3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.latest-works img {
+    width: 45%;
+    margin: 5px;
+    border-radius: 10px;
+}
